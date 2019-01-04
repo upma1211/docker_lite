@@ -9,6 +9,6 @@ RUN rm -v /etc/nginx/nginx.conf
 WORKDIR .
 ADD nginx.conf /etc/nginx/
 ADD index.html /usr/share/nginx/html/
-EXPOSE 90
+EXPOSE 80
 CMD service nginx start
 
